@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    background-color:chocolate;
+}
+h1{
+    color: rgb(17, 17, 17);
+}
+button{
+    margin-top: 3em;
+    background-color:cornsilk ;
+    border: none;
+    padding: 1em 1em;
+    border-radius: 5px;
+    color: rgb(17, 17, 17);
+    filter: drop-shadow(.3em .2em 1em rgba(17, 17, 17, 0.541));
+}
+button:hover{
+    background:none;
+    border: 1px solid rgb(17, 17, 17);
+    filter: none;
+    cursor: pointer;
+}
